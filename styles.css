@@ -485,7 +485,7 @@ body {
         }
         .navebar ul li {
             height: 2px;
-            background-color: #333;
+            background-color: #004faa;
             
         }
         
@@ -639,11 +639,7 @@ body {
         
 
     }
-    .header .navebar ul li a:hover{
-            
-            background-color: #b30077;
-            
-        }
+    
     
     
 }
