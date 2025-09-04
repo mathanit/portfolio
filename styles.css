@@ -488,11 +488,7 @@ body {
             background-color: #333;
             
         }
-        .navebar ul li a:hover {
-            
-            background-color: #b30077;
-            
-        }
+        
        
         .checkbtn{
     
@@ -643,6 +639,11 @@ body {
         
 
     }
+    .header .navebar ul li:hover{
+            
+            background-color: #b30077;
+            
+        }
     
     
 }
