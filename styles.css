@@ -639,7 +639,7 @@ body {
         
 
     }
-    .header .navebar ul li:hover{
+    .header .navebar ul li a:hover{
             
             background-color: #b30077;
             
