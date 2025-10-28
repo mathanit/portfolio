@@ -567,7 +567,10 @@ body{
         transition: ease-in-out 0.5s;
     }
 
-    .navebar ul li {
+     .navebar ul a {
+        width: 100%;
+     }
+    .navebar ul a li {
         height: 2px;
         background-color: #004faa;
 
