@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    
+
 
 </head>
+
 <body>
-   
+
+
     <header class="header">
-        
-        <div class="containerz">
+
+        <div class="container">
             <h1 class="logo">Mathan A</h1>
             <p class="tagline">Welcome to my Portfolio</p>
         </div>
         <div class="navebar">
-            
+
             <ul id="menulist">
                 <li> <a href="#home" onclick="toggleMenu()">Home</a> </li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -27,241 +30,372 @@
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </ul>
         </div>
-        
-        <label  class="checkbtn" onclick="toggleMenu()">
-           <i class="fa-solid fa-bars"></i>
+
+        <label class="checkbtn" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
         </label>
     </header>
+
+    <!-- <video class="bg-video" autoplay muted loop playsinline>
+        <source src="./img/bg1.mp4" type="video/mp4">
+    </video> -->
 
     <section id="home" class="home">
         <div class="container">
             <div class="profile">
-                
-                <img src="img/photo.png" alt="Your Photo" class="profile-img">
+
+                <img src="img/stand.png" alt="Your Photo" class="profile-img">
             </div>
-            
+
             <div class="bio">
                 <h2 class="name">Mathan A</h2>
-                <p>I am a web developer with a passion for creating interactive and user-friendly websites. Skilled in HTML, CSS, JavaScript, Reactjs, UI/UX Design, Java and Python</p>
+                <p> Aspiring IT specialist with strong skills in full-stack technologies, including Java, Spring Boot,
+                    MySQL, and React.js.
+                    Experienced in developing real-time web applications during internships with a focus on clean,
+                    efficient code. Certified in MS
+                    Office, Java, MySQL, React.js, Full Stack Development, and Typewriting. Recognized for strong
+                    problem-solving, logical
+                    thinking, and teamwork skills. Quick learner with a keen interest in full-stack development and
+                    emerging technologies</p>
                 <h2>Contact</h2>
-               <div class="logo">
-                <a href="mailto:learnmathan@gmail.com"><img src="icon/gmail.png" alt="Your Photo" ></a>
-                <a href="https://wa.me/919043343357" target="_blank"><img src="icon/phone-call.png" alt="Your Photo" ></a>
-                <a href="https://www.linkedin.com/in/mathan-a-030804347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="icon/linkedin.png" alt="Your Photo" ></a>
-                <a href="https://www.instagram.com/mathan_it_a"><img src="icon/instagram.png" alt="Your Photo" ></a>
-               </div>
+                <div class="logo">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=learnmathan@gmail.com" target="_blank"
+                        rel="noopener noreferrer"><img src="icon/gmail.png" alt="Your Photo"></a>
+                    <a href="https://wa.me/919043343357" target="_blank"><img src="icon/phone-call.png"
+                            alt="Your Photo"></a>
+                    <a href="https://www.linkedin.com/in/mathan-a-030804347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><img src="icon/linkedin.png" alt="Your Photo"></a>
+                    <a href="https://www.instagram.com/mathan_it_a" target="_blank"><img src="icon/instagram.png"
+                            alt="Your Photo"></a>
+                </div>
                 <div class="btncontainer">
-                    <a href="img/Mathan_A_JavaDeveloper.pdf" class="btn">Download Resume</a>
+                    <a href="img/Mathan_A_JavaDeveloper.pdf" target="_blank" class="btn">Download Resume</a>
                 </div>
             </div>
         </div>
     </section>
-   
 
-    <section id="about"class="about">
+
+    <section id="about" class="about">
         <div class="container">
-            <img src="img/photo.png" alt="Your Photo" class="profile-img">
+            <img src="img/laptop.png" alt="Your Photo" class="profile-img ">
             <div class="bio">
                 <h2>About Me</h2>
-                <span>I am a B.Tech IT student</span> 
-                <p>Full-stack developer with a strong focus on front-end technologies and expertise in React.js, creating scalable applications.
-                    ,Skilled in optimizing web applications for performance and responsiveness  with a focus on user-centric designs.
-                    ,Proven ability to collaborate effectively in team environments, manage time efficiently and troubleshoot technical challenges.
-                    ,Expertise in React.js, Node.js, MongoDB, UI&UX Design, Python, Java and using Agile methodologies to deliver high-quality projects on time.
-                    </p>
-                    <div class="Education">
-                        <span>Education</span>
-                        <div class="College">
-                            <p>
-                            B.Tech in Information Technology   
-                            Kings Engineering College, Chennai | CGPA: 8.3 
-                            </p>
-                        </div>
-                        <div class="sslc">
-                            <p>
-                            Higher Secondary Certificate (HSC)              
-                            Anderson Higher Secondary School, Kanchipuram | Percentage: 85% 
-                            </p>
-                            
-                        </div>
-                            <div class="hsc">
-                                <p>
-                            Secondary School Leaving Certificate (SSLC)   
-                            Government Adi Dravida Welfare High School, Kanchipuram | Percentage: 75%
-                                </p>
-                            </div>
+                <span style="font-size: 2rem;"> I am IT specialist </span>
+                <p class="bio-contenet">Full-stack developer with a strong focus on front-end technologies and expertise
+                    in React.js,
+                    creating scalable applications.
+                    ,Skilled in optimizing web applications for performance and responsiveness with a focus on
+                    user-centric designs.
+                    ,Proven ability to collaborate effectively in team environments, manage time efficiently and
+                    troubleshoot technical challenges.
+                    ,Expertise in React.js, Node.js, MongoDB, UI&UX Design, Python, Java and using Agile methodologies
+                    to deliver high-quality projects on time.
+                </p>
+                <div class="Education">
+                    <span style="font-size:2rem; color:var(--background-color);">Education</span>
+                    <div class="College">
+                        <p>
+                            <span style="font-size:1.5rem; display: block;">
+                                B.Tech Information Technology
+                            </span>
+                            Kings Engineering College, Chennai
+                            <span style="color:var(--primary-color);">
+                                CGPA: 8.0 | (2021–2025)
+                            </span>
+                        </p>
                     </div>
-                    
-                        
+                    <div class="sslc">
+                        <p>
+                            <span style="font-size:1.5rem; display: block;">
+                                Higher Secondary Certificate (HSC)
+                            </span>
+                            Anderson Higher Secondary School, Kanchipuram | <span style="color:var(--primary-color);">
+                                Percentage: 85%
+                            </span>
+                        </p>
+
+                    </div>
+                    <div class="hsc">
+                        <p>
+                            <span style="font-size:1.5rem; display: block;">
+                                Secondary School Leaving Certificate (SSLC)
+                            </span>
+                            Government Adi Dravida Welfare High School, Kanchipuram |
+                            <span style="color:var(--primary-color);">
+                                Percentage: 75%
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
 
-    
+
     <section id="skills" class="skills">
         <h2>My Skills</h2>
         <div class="container">
             <div class="skil-card">
-                <img src="icon/html-5.png" alt="" class="icon"><p>HTML</p>
+                <img src="icon/html-5.png" alt="" class="icon">
+                <p>HTML</p>
             </div>
             <div class="skil-card">
-                <img src="icon/css-3.png" alt="" class="icon"> <p>CSS</p>
+                <img src="icon/css-3.png" alt="" class="icon">
+                <p>CSS</p>
             </div>
             <div class="skil-card">
-                <img src="icon/java-script.png" alt="" class="icon"><p>JavaScript</p>
+                <img src="icon/java-script.png" alt="" class="icon">
+                <p>JavaScript</p>
             </div>
             <div class="skil-card">
-                <img src="icon/react.png" alt="" class="icon"><p>ReactJS</p>
+                <img src="icon/react.png" alt="" class="icon">
+                <p>ReactJS</p>
             </div>
             <div class="skil-card">
-                <img src="icon/node.png" alt="" class="icon"><p>Node.js</p>
+                <img src="icon/node.png" alt="" class="icon">
+                <p>Node.js</p>
             </div>
             <div class="skil-card">
-                <img src="icon/python.png" alt="" class="icon"> <p>PYTHON</p>
+                <img src="icon/python.png" alt="" class="icon">
+                <p>PYTHON</p>
             </div>
             <div class="skil-card">
-                <img src="icon/java.png" alt="" class="icon"><p>JAVA</p>
+                <img src="icon/java.png" alt="" class="icon">
+                <p>JAVA</p>
             </div>
             <div class="skil-card">
-                <img src="icon/c++.png" alt="" class="icon"><p>C++</p>
+                <img src="icon/c++.png" alt="" class="icon">
+                <p>C++</p>
             </div>
             <div class="skil-card">
-                <img src="icon/mongodb.png" alt="" class="icon"><p>MONGODB</p>
+                <img src="icon/mongodb.png" alt="" class="icon">
+                <p>MONGODB</p>
             </div>
             <div class="skil-card">
-                <img src="icon/mysql.png" alt="" class="icon"> <p>MY SQL</p>
+                <img src="icon/mysql.png" alt="" class="icon">
+                <p>MY SQL</p>
             </div>
             <div class="skil-card">
-                <img src="icon/java-script.png" alt="" class="icon"><p>EXPRESS.JS</p>
+                <img src="icon/java-script.png" alt="" class="icon">
+                <p>EXPRESS.JS</p>
             </div>
             <div class="skil-card">
-                <img src="icon/icons8-tailwind-css-48.png" alt="" class="icon"><p>TAILWINDCSS</p>
+                <img src="icon/icons8-tailwind-css-48.png" alt="" class="icon">
+                <p>TAILWINDCSS</p>
             </div>
             <div class="skil-card">
-                <img src="icon/api.png" alt="" class="icon"><p>RESTful API</p>
+                <img src="icon/api.png" alt="" class="icon">
+                <p>RESTful API</p>
             </div>
             <div class="skil-card">
-                <img src="icon/git.png" alt="" class="icon"><p>Git</p>
+                <img src="icon/git.png" alt="" class="icon">
+                <p>Git</p>
             </div>
             <div class="skil-card">
-                <img src="icon/uiux.png" alt="" class="icon"><p>UI/UX Design</p>
+                <img src="icon/uiux.png" alt="" class="icon">
+                <p>UI/UX Design</p>
             </div>
             <div class="skil-card">
-                <img src="icon/spring-boot-logo.png" alt="" class="icon"><p>Spring Boot</p>
+                <img src="icon/spring-boot-logo.png" alt="" class="icon">
+                <p>Spring Boot</p>
             </div>
-               
+
         </div>
     </section>
 
-  
+
     <section id="projects" class="projects">
         <h2>My Projects</h2>
-            
-            <div class="container">
+
+        <div class="container">
+            <div class="project-card">
+                <img src="img/landingpage.png" alt="Project 1">
+                <div class="content">
+
+                    <h3>Aripad Landing Page</h3>
+                    <p>
+                        <span> Technologies Used: React.js </span>
+                        <a href="https://aripad-landing-page.netlify.app/" target="_blank">
+                            <span style="display: block; font-size:2rem;color: var(--secondary-color);">Website
+                                Link</span>
+                        </a>
+                        <a href="https://github.com/mathanit/Arippods_landing_page.git" target="_blank">
+                            <span style="display: block; font-size:2rem;color: var(--secondary-color);">Github
+                                Link</span>
+                        </a>
+
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/Screenshot 2025-10-28 192030.png" alt="Project 1">
+                <div class="content">
+
+                    <h3>Instragram clone using figma design</h3>
+                    <p>
+                        <span> Technologies Used: Figma</span>
+                        <a href="https://www.figma.com/proto/OZZf55QABTUJdyKmCh43ua/Untitled?node-id=4-3&p=f&t=QI6tvp3BYLEKvtti-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3"
+                            target="_blank">
+
+                            <span style="display: block; font-size:2rem;color: var(--secondary-color);">Link</span>
+                        </a>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/todo.png" alt="Project 1">
+                <div class="content">
+
+                    <h3>Todo Application (React JS + Spring Boot)</h3>
+                    <p>
+                        <span> Technologies Used:
+                            <span style="display: block;">
+                            Frontend: React.js, Axios, React Router DOM, CSS
+                            </span>
+                            <span style="display: block;">
+                            Backend: Spring Boot, Java, JPA/Hibernate
+                            </span>
+                            <span style="display: block;">
+                            Database: MySQL / H2 / MongoDB (configurable)
+                            </span>
+                            <span style="display: block;">
+                            Build Tools: Maven (backend), npm / Vite (frontend)</span>
+                            </span>
+                        <a href="https://github.com/mathanit/todo-application-reactjs-springboot.git" target="_blank">
+
+                            <span style="display: block; font-size:2rem;color: var(--secondary-color);">Github
+                                Link</span>
+                        </a>
+                         <a href="https://www.linkedin.com/posts/mathan-a-030804347_springboot-react-mysql-activity-7388972426329706497-mR5b?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFbLayQBRWZLFZpiWTAjyEY2GRElahxPRv4" target="_blank">
+
+                            <span style="display: block; font-size:2rem;color: var(--secondary-color);">
+                                Post Link</span>
+                        </a>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
             <div class="project-card">
                 <img src="img/full-form-of-ERP.webp" alt="Project 1">
                 <div class="content">
-                    
+
                     <h3>PROJECT 1:College ERP System</h3>
                     <p>
-                       <span> Technologies Used: React.js, TailwindCSS, Redux ,JWT, Express.js, MongoDB.</span>
-                       <br>
+                        <span> Technologies Used: React.js, TailwindCSS, Redux ,JWT, Express.js, MongoDB.</span>
+                        <br>
                         Key Features
-                        •	Developed a College ERP system for managing student data, attendance, and schedules.
-                        •	Implemented JWT authentication, real-time updates with Redux, and mobile-first design with TailwindCSS.
-                        •	Managed user roles (admin/factuly student) with MongoDB for flexible data storage.
-                        </p>
+                        • Developed a College ERP system for managing student data, attendance, and schedules.
+                        • Implemented JWT authentication, real-time updates with Redux, and mobile-first design with
+                        TailwindCSS.
+                        • Managed user roles (admin/factuly/student) with MongoDB for flexible data storage.
+                    </p>
                 </div>
             </div>
             <div class="project-card">
                 <img src="img/special_mockup__dribbble__2_4x.webp" alt="Project 2">
                 <div class="content">
-                    
+
                     <h3>PROJECT 2:Book Store Platform</h3>
                     <p>
                         <span>Technologies Used: React.js, TailwindCSS, Redux, JWT, Node.js,Express.js, MongoDB.</span>
                         <br>
-                        Key Features 
-                        •	Built an online book store with browsing, shopping cart, and payment gateway integration.
-                        •	Used JWT for authentication, Redux for state management, and MongoDB for data storage.
-                        •	Integrated admin features for inventory and order management.</p>
+                        Key Features
+                        • Built an online book store with browsing, shopping cart, and payment gateway integration.
+                        • Used JWT for authentication, Redux for state management, and MongoDB for data storage.
+                        • Integrated admin features for inventory and order management.
+                    </p>
                 </div>
             </div>
-        
+
         </div>
     </section>
 
-    
+
     <section id="award" class="award">
         <h2>HONOR AWARDS</h2>
-        
+
         <div class="container">
-            
+
             <div class="award-card">
                 <img src="img/qis.jpeg" alt="Project 1">
                 <div class="content">
-                    
-                    <h3>Best Performing Team – Innovation, Design, and Entrepreneurship (IDE) Bootcamp Phase-III 2024</h3>
+
+                    <h3>Best Performing Team – Innovation, Design, and Entrepreneurship (IDE) Bootcamp Phase-III 2024
+                    </h3>
                     <p>
-                       <span> Kalasalingam Academy of Research and Education, Madura</span>
-                        </p>
+                        <span> Kalasalingam Academy of Research and Education, Madura</span>
+                    </p>
                 </div>
-                
+
             </div>
             <div class="award-card">
                 <img src="img/sih image.jpeg" alt="Project 2">
                 <div class="content">
-                    
+
                     <h3>Selected for SIH Senior Software Edition – Smart India Hackathon 2023 </h3>
                     <p>
                         <span>QIS College of Engineering and Technology (Autonomous), Andhra Pradesh.</span>
-                     </p>
+                    </p>
                 </div>
             </div>
             <div class="award-card">
                 <img src="img/third certificate.jpeg" alt="Project 2">
                 <div class="content">
-                    
+
                     <h3>Third Place – Project Hackathon Expo 2022 </h3>
                     <p>
                         <span> Kings Engineering College, Kanchipuram</span>
-                     </p>
+                    </p>
                 </div>
             </div>
-             <div class="award-card">
+            <div class="award-card">
                 <img src="img/first certificate.jpeg" alt="Project 2">
                 <div class="content">
-                    
+
                     <h3>Second Place – Little Trickier National Mathematics 2021
                     </h3>
                     <p>
                         <span> Kings Engineering College, Kanchipuram</span>
-                     </p>
+                    </p>
                 </div>
             </div>
         </div>
 
     </section>
-    
-    
 
-  
+
+
+
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact</h2>
-            <p>Email: learnmathan@gmail.com </p><p>Phone: 9043343357</p> 
+            <p>Email: learnmathan@gmail.com </p>
+            <p>Phone: 9043343357</p>
             <div class="logo">
-                <a href="mailto:learnmathan@gmail.com"><img src="icon/gmail.png" alt="Your Photo" ></a>
-                <a href="https://wa.me/919043343357" target="_blank"><img src="icon/phone-call.png" alt="Your Photo" ></a>
-                <a href="https://www.linkedin.com/in/mathan-a-030804347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="icon/linkedin.png" alt="Your Photo"></a>
-                <a href="https://www.instagram.com/mathan_it_a"><img src="icon/instagram.png" alt="Your Photo"></a>
-               </div>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=learnmathan@gmail.com" target="_blank"
+                    rel="noopener noreferrer"><img src="icon/gmail.png" alt="Your Photo"></a>
+                <a href="https://wa.me/919043343357" target="_blank"><img src="icon/phone-call.png"
+                        alt="Your Photo"></a>
+                <a href="https://www.linkedin.com/in/mathan-a-030804347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"><img src="icon/linkedin.png" alt="Your Photo"></a>
+                <a href="https://www.instagram.com/mathan_it_a" target="_blank"><img src="icon/instagram.png"
+                        alt="Your Photo"></a>
+            </div>
         </div>
-        
+
     </section>
 
 
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/ba7586db15.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
